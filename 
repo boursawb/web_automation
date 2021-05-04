@@ -1,0 +1,31 @@
+[33m39b3560[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m Removed .gitignore from the .gitignore file
+[33md02cec8[m[33m ([m[1;31morigin/main[m[33m)[m Multiple updates related to getting auto-pallet building working.  Very close, missing something within the file or file name that is preventing IPT from picking it up and showing it within the pallet
+[33m6065462[m Multiple changes related to getting the auto-job creation for pallet building working
+[33m30786a5[m Updated versions of images for VRT
+[33mf6320d3[m thrashing around a bit to find some way to generate press jobs for pallet building
+[33mf1a6ecd[m Updated test to include visual check for sup and admin scenarios
+[33m4bd3e63[m New images added for visual testing compare
+[33m87b8019[m Screenshot files for visual testing comparison
+[33m7386693[m Updated test to use Resemble visual acceptance testing
+[33m07606d8[m Updated project for visual acceptance testing using Codeceptjs-Resemble
+[33m7ac7278[m Removed the line calling on the pageValidation function in the permissions page object as that has been removed as well.
+[33m0c66893[m Removed a few comments and cleaned up code
+[33m64db9a1[m Initial commit of a text file I keep in my project for notes
+[33mde44ab0[m Initial commit of new test for permission modifications
+[33m2a36caa[m Completely rebuilt the Permissions page object.  Added functions to edit permissions for validation
+[33m1e59ecb[m fixed typo I made during last change.
+[33m2714ecf[m Station identity scenario was calling on stationsPage object instead of stationIdentityPage object for page validation function
+[33m9e9b7ed[m Resolved multiple issues related to filters not getting cleared
+[33mc704414[m Added missing scenario for basic validation of the station identity page.
+[33mda284d5[m Added missing 1 second wait to clearFilter function
+[33md89f9cb[m Cleaned up function to set IDH as the current station which is used by other tests which require station to be set.
+[33meef8595[m Updated the test prep functions for People, Sites, Stations to move the clearFilter outside of the if block.  This was causing filters to not be cleared as expected.
+[33m1f310b3[m Added navigation for stationIdentity.  This had not yet been added to the Nav file
+[33md647b08[m Updated test to include dependencies for I and navFragment globally instead of within each test
+[33m536e62a[m Changed to grabTextFrom to get value of h1 to determine if an existing pallet is in process
+[33mfdd5274[m Test files updated to better handle filters
+[33m4de91ff[m Original test file that was generated when project was built - not needed
+[33m17fa561[m Updated navigation test file to include the url and title check which was removed from the Nav page object
+[33m620c3fd[m Changed filters to only use generic clear filters for all except for multi-filtered situations where more than one name filter was used
+[33m965b6c3[m Moved url check and title check to tests instead of running each time nav was called for a page location
+[33m7966010[m Initial commit of project files

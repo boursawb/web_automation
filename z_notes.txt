@@ -1,0 +1,15 @@
+Creating a new test
+=========================
+npx codeceptjs gt
+
+Creating a new page object
+===========================
+npx codeceptjs gpo
+
+Creating a new fragment
+========================
+npx codeceptjs go --type fragment
+
+Creating a new Step object
+===========================
+npx codeceptjs go --type step
